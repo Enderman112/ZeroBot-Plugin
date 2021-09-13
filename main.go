@@ -23,7 +23,7 @@ import (
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_ai_false"  // 服务器监控
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_choose"    // 选择困难症帮手
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_hs"        // 炉石
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_hs"        // 炉石
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_minecraft" // MCSManager
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_music"     // 点歌
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_omikuji"   // 浅草寺求签
@@ -31,15 +31,15 @@ import (
 
 	// b站相关
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_bilibili" // 查询b站用户信息
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_diana"    // 嘉心糖发病
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_diana"    // 嘉心糖发病
 
 	// 二次元图片
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_acgimage"     // 随机图片与AI点评
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_aiwife"       // 随机老婆
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_acgimage"     // 随机图片与AI点评
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_aiwife"       // 随机老婆
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_image_finder" // 关键字搜图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_lolicon"      // lolicon 随机图片
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_saucenao"     // 以图搜图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin_setutime"     // 来份涩图
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_lolicon"      // lolicon 随机图片
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_saucenao"     // 以图搜图
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin_setutime"     // 来份涩图
 
 	// 以下为内置依赖，勿动
 	log "github.com/sirupsen/logrus"
